@@ -62,8 +62,10 @@ The Configuration:
   
     A new type introduced by AWS. It is designed to distribute traffic to virtual appliances deployed in the VPC. It operates at the network layer and can route traffic based on IP protocols and ports. The Gateway Load Balancer is particularly useful for scenarios where advanced networking capabilities or third-party virtual appliances, such as firewalls or VPN concentrators, need to be integrated into your network architecture.
 
-  ![image](https://github.com/liormat401/ELB-ASG/assets/126070709/530334f6-77cc-4dba-b077-db1a010e47c3)
-  *Classic Load Balancer*
+  
+![image](https://github.com/liormat401/ELB-ASG/assets/126070709/4f93da83-724d-4c0c-9f56-a64b07256fd2)
+
+Let's create the Target Group.
 
   ## Step 4:Target Group ##
   The load balancer routes requests to the targets within the target group and conducts health checks on those targets.
@@ -73,12 +75,18 @@ The Configuration:
   - VPC
   - Protocol
   - Register Targets
+ (Not relevant to Classic LB)
+
+Add the target group in the Listeners and Routing section and create the LB
+![image](https://github.com/liormat401/ELB-ASG/assets/126070709/860aa6da-3d62-48e2-93a3-4e705d43fb9f)
+
  
-    (Not relevant to Classic LB)
+ ## Step 5: Attach the Load Balancer to the AutoScale Group:##
+    
+    ![image](https://github.com/liormat401/ELB-ASG/assets/126070709/d858cc41-c05d-4659-9ac4-17f73ee1691e)
+
  
-    ## Step 5:Attach LB and Target Group to ASG ##
-    ![image](https://github.com/liormat401/ELB-ASG/assets/126070709/27599202-5e28-4cbb-872e-004cd451e673)
-    *In my case,only atteched the LB to the ASG*
+  
 
     
 
