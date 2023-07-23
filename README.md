@@ -80,11 +80,11 @@ Add the target group in the Listeners and Routing section and create the LB
 ![image](https://github.com/liormat401/ELB-ASG/assets/126070709/860aa6da-3d62-48e2-93a3-4e705d43fb9f)
 
  
- ## Step 5: Attach the Load Balancer to the AutoScale Group:##
+ ## Step 5: Attach the Load Balancer to the AutoScale Group: ##
 
- 
+
     
-    ![image](https://github.com/liormat401/ELB-ASG/assets/126070709/d858cc41-c05d-4659-9ac4-17f73ee1691e)
+![image](https://github.com/liormat401/ELB-ASG/assets/126070709/d858cc41-c05d-4659-9ac4-17f73ee1691e)
 
  
   
