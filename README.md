@@ -1,7 +1,7 @@
 # ELB-ASG
 Classic Elastic Load Balancer &amp; Auto Scaling Web Servers
 
-Using the AWS Web Console, created an Internet-facing Classic Elastic Load Balancer using Auto Scaling Group with a Launch Configuration that provision and configure Amazon Linux Apache Web Servers on t2.micro instances. 
+Using the AWS Web Console, created an Internet-facing Application Elastic Load Balancer using Auto Scaling Group with a Launch Configuration that provision and configure Amazon Linux Apache Web Servers on t2.micro instances. 
 
 The I.A.A.C file is attached.
 
@@ -76,10 +76,13 @@ Let's create the Target Group.
  (Not relevant to Classic LB)
 
 Add the target group in the Listeners and Routing section and create the LB
+
 ![image](https://github.com/liormat401/ELB-ASG/assets/126070709/860aa6da-3d62-48e2-93a3-4e705d43fb9f)
 
  
  ## Step 5: Attach the Load Balancer to the AutoScale Group:##
+
+ 
     
     ![image](https://github.com/liormat401/ELB-ASG/assets/126070709/d858cc41-c05d-4659-9ac4-17f73ee1691e)
 
